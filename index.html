@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NMJ Consultancy — Sales Analytics for SMEs</title>
+  <meta name="description" content="Sales analytics, dashboards, and reporting optimization for SMEs. Transform sales data into business growth.">
+  <link rel="icon" href="assets/img/heading-img.png">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/font/flaticon_mycollection.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <style>
+    /* Minor overrides to tailor the template to Corina's brand */
+    :root{
+      --brand:#0a6ad6;
+      --brand-2:#0b8f5a;
+    }
+    .btn-brand{background:var(--brand); color:#fff;}
+    .btn-brand:hover{background:#084ea0; color:#fff;}
+    .section-muted{background:#f7f9fc;}
+    .hero-section.consultancy{background-image: url(assets/img/line-img.jpg); background-size:cover; background-position:center;}
+    .hero-section.consultancy h1{font-weight:800;}
+    .cred-list li{margin-bottom:.4rem;}
+    .package i{font-size:28px;}
+    .logo img{max-height:44px;}
+    .footer-cta{background:rgba(10,106,214,.08); border-radius:16px; padding:24px;}
+    .case-card{border:1px solid #e6eef7; border-radius:14px; padding:18px; height:100%; background:#fff;}
+    .case-card h5{margin-top:.2rem;}
+    .mini-badge{display:inline-block; font-size:12px; padding:2px 8px; border-radius:999px; background:#e8f2ff; color:#0a6ad6; margin-bottom:6px;}
+    .navbar .navbar-links>li>a{font-weight:600;}
+    .contact-form .form-control{border-radius:10px;}
+    .footer{color:#dfe8f5}
+    .footer a{color:#fff;}
+    .disclaimer{font-size:.85rem; color:#6b7a90}
+    .avatar{width:56px; height:56px; border-radius:50%; object-fit:cover;}
+    /* Accessibility helpers */
+    .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0;}
+  </style>
+</head>
+<body>
+<!-- preloader (kept from template) -->
+<div class="preloader" aria-hidden="true">
+  <div class="loading-text" aria-label="Loading">
+    <span>L</span><span>O</span><span>A</span><span>D</span><span>I</span><span>N</span><span>G</span>
+  </div>
+</div>
+
+<!-- Header / Nav -->
+<header id="stickyHeader">
+  <div class="container">
+    <div class="top-bar">
+      <div class="logo">
+        <a href="#top" aria-label="NMJ Consultancy home">
+          <!-- <img alt="Corina McArt Consultancy" src="assets/img/logo.png"> -->
+          <h1>NMJ Consultancy</h1>
+        </a>
+      </div>
+      <nav class="navbar" aria-label="Primary">
+        <ul class="navbar-links">
+          <li class="navbar-dropdown"><a href="#about">About</a></li>
+          <li class="navbar-dropdown"><a href="#services">Services</a></li>
+          <li class="navbar-dropdown"><a href="#why">Why Me</a></li>
+          <li class="navbar-dropdown"><a href="#results">Results</a></li>
+          <li class="navbar-dropdown"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-brand btn-sm" href="#contact"><i class="flaticon-smart-phone"></i> <b>Book a Free Call</b></a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero-section consultancy" id="top">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <div class="hero-text sec-title-animation animation-style2">
+          <span class="title-animation">Sales Analytics for SMEs</span>
+          <h1 class="title-animation">Transform Sales Data Into Business Growth</h1>
+          <p class="lead">Helping SMEs uncover insights, streamline reporting, and make smarter decisions with sales analytics and modern business tools (including AI where it adds value).</p>
+        </div>
+        <div class="d-flex gap-2 flex-wrap">
+          <a href="#contact" class="button btn btn-brand"><span><span>Book a Free Consultation</span></span></a>
+          <a href="#services" class="button btn"><span><span>See How I Can Help</span></span></a>
+        </div>
+        <div class="d-flex align-items-center mt-3" aria-label="Social proof">
+          <img alt="Google reviews" src="assets/img/google.png" style="height:22px; width:auto;">
+          <ul class="star ms-2 mb-0">
+            <li><i class="fa-solid fa-star"></i></li><li><i class="fa-solid fa-star"></i></li><li><i class="fa-solid fa-star"></i></li><li><i class="fa-solid fa-star"></i></li><li><i class="fa-solid fa-star"></i></li>
+          </ul>
+          <h6 class="mb-0 ms-2">(5.0)</h6>
+        </div>
+      </div>
+      <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+        <img src="https://placehold.co/420x520" alt="Portrait of Corina McArt" class="img-fluid rounded-4 shadow">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- About / Credibility -->
+<section id="about" class="gap section-muted">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+        <div class="heading sec-title-animation animation-style2">
+          <span class="title-animation">About NMJ</span>
+          <h2 class="title-animation">Data into meaningful insight — not just reports</h2>
+        </div>
+        <p class="mb-3">We're a team of Analysts and AI experts with 10+ years’ experience in manufacturing, retail, and logistics. We specialize in turning raw data into practical insights that boost performance and efficiency for SMEs.</p>
+        <ul class="cred-list list-unstyled">
+          <li><i class="fa-solid fa-circle-check text-success me-2"></i> Expertise in <b>Excel</b>, <b>SQL</b>, and BI reporting</li>
+          <li><i class="fa-solid fa-circle-check text-success me-2"></i> Proven track record in process improvement & cost savings</li>
+          <li><i class="fa-solid fa-circle-check text-success me-2"></i> Practical use of AI to complement analytics — only where it adds value</li>
+        </ul>
+      </div>
+      <div class="col-lg-5">
+        <div class="footer-cta">
+          <h4 class="mb-2">Ready to get more value from your sales data?</h4>
+          <p class="mb-3">Book a free 30‑minute consultation to explore the fastest wins for your reporting and decision‑making.</p>
+          <a href="#contact" class="button btn btn-brand w-100"><span><span>Book a Free Call</span></span></a>
+          <p class="disclaimer mt-2 mb-0">No pressure, no jargon — just practical next steps.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services / Packages -->
+<section id="services" class="gap how-it-works">
+  <div class="container">
+    <div class="heading two sec-title-animation animation-style2">
+      <span class="title-animation">Services</span>
+      <h2 class="title-animation">Sales analytics first — AI as an enhancer</h2>
+      <p>Start with the reporting foundation, then add automation or forecasting where it genuinely delivers ROI.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="case-card package h-100">
+          <i class="flaticon-programming"></i>
+          <h4 class="mt-2">Sales & Operations Dashboards</h4>
+          <p class="mb-3">Custom Excel/SQL dashboards to track performance and forecast trends.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="case-card package h-100">
+          <i class="flaticon-consulting"></i>
+          <h4 class="mt-2">Sales Analysis & Insights</h4>
+          <p class="mb-3">Spot opportunities, customer patterns, and efficiency improvements.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="case-card package h-100">
+          <i class="flaticon-maintenance"></i>
+          <h4 class="mt-2">Process & Reporting Optimization</h4>
+          <p class="mb-3">Streamline workflows, reduce manual effort, and improve accuracy.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="case-card package h-100">
+          <i class="flaticon-team-building"></i>
+          <h4 class="mt-2">Training & Team Support</h4>
+          <p class="mb-3">Workshops in Excel, SQL, and modern tools — with optional AI automation.</p>
+        </div>x
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="#contact" class="button btn btn-brand"><span><span>See How We Can Help Your Business</span></span></a>
+    </div>
+  </div>
+
+</section>
+
+<!-- Why Work With Me -->
+<section id="why" class="gap section-muted">
+  <div class="container">
+    <div class="heading sec-title-animation animation-style2">
+      <span class="title-animation">Why Work With Us</span>
+      <h2 class="title-animation">Practical, domain‑aware analytics</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="presenting two">
+          <div><i class="flaticon-consulting"></i></div>
+          <div>
+            <h3>Business + Analytics</h3>
+            <p>Blend of commercial experience and technical expertise.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="presenting">
+          <div><i class="flaticon-maintenance"></i></div>
+          <div>
+            <h3>Ops‑heavy Background</h3>
+            <p>Manufacturing, logistics, and sales operations know‑how.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="presenting">
+          <div><i class="flaticon-helpdesk"></i></div>
+          <div>
+            <h3>Actionable Outputs</h3>
+            <p>Insights that drive decisions — not just pretty charts.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="presenting">
+          <div><i class="flaticon-programming"></i></div>
+          <div>
+            <h3>Sensible AI</h3>
+            <p>Forecasting & automation only when it’s practical and proven.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Case Studies / Results -->
+<section id="results" class="gap">
+  <div class="container">
+    <div class="heading sec-title-animation animation-style2">
+      <span class="title-animation">Case Studies</span>
+      <h2 class="title-animation">Selected results</h2>
+      <p class="mb-0">Names included with permission or anonymised on request.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="case-card">
+          <span class="mini-badge">Logistics Reporting</span>
+          <h5>Reduced operational costs at Smyths Toys</h5>
+          <p>Developed enhanced logistics reporting that identified bottlenecks and reduced transport and handling costs.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="case-card">
+          <span class="mini-badge">Forecasting</span>
+          <h5>Dashboards for better sales forecasting at Zeus</h5>
+          <p>Built Excel/SQL dashboards to improve forecast accuracy and highlight revenue‑at‑risk.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="case-card">
+          <span class="mini-badge">EMEA Visibility</span>
+          <h5>SQL‑driven reporting for EMEA sales</h5>
+          <p>Consolidated disparate data sources into a single source of truth for leadership visibility.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lead Capture / Contact -->
+<section id="contact" class="gap section-muted">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-6">
+        <div class="heading sec-title-animation animation-style2">
+          <span class="title-animation">Get in touch</span>
+          <h2 class="title-animation">Ready to get more value from your sales data?</h2>
+        </div>
+        <p>Book a free 30‑minute consultation and discover how your business can improve decision‑making with smarter analytics and streamlined reporting.</p>
+        <a class="button btn btn-brand" href="https://calendly.com/your-calendly/30min" target="_blank" rel="noopener"><span><span>Book a Free Call</span></span></a>
+        <p class="disclaimer mt-3">Prefer email? Use the form and I’ll reply within one business day.</p>
+      </div>
+      <div class="col-lg-6">
+        <form class="contact-form" id="leadForm" action="mailto:hello@yourdomain.com" method="post">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="name">Name</label>
+              <input class="form-control" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-control" id="email" name="email" type="email" required placeholder="you@company.com">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="business">Business</label>
+              <input class="form-control" id="business" name="business" placeholder="Company or sector">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="phone">Phone (optional)</label>
+              <input class="form-control" id="phone" name="phone" placeholder="+353 ...">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell me about your current reporting or analytics challenges..."></textarea>
+            </div>
+            <div class="col-12 d-grid">
+              <button type="submit" class="button btn btn-brand"><span><span>Send Message</span></span></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="gap no-bottom footer" style="background-image: url(assets/img/footer.jpg);">
+  <div class="container">
+    <div class="footer-try">
+      <div>
+        <h2>Sales analytics, reporting, and efficiency — front and center</h2>
+        <p>AI appears only as a supporting tool — adds value without overwhelming the brand.</p>
+      </div>
+      <a href="#contact" class="button btn btn-brand"><span><span>Book a Free Consultation</span></span></a>
+    </div>
+
+    <div class="row gy-4">
+      <div class="col-lg-6">
+        <div class="footer-logo">
+          <h2>NMJ Consultancy</h2>
+          <p class="mt-2">Get monthly tips on sales analytics & reporting best practices.</p>
+          <form class="row g-2" onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
+            <div class="col-8 col-sm-9"><input class="form-control" placeholder="Email address" required></div>
+            <div class="col-4 col-sm-3 d-grid"><button class="btn btn-brand">Sign up</button></div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="widget-title">
+          <h3>Contact</h3>
+          <div class="get-in-touch">
+            <div><i class="flaticon-iphone"></i></div>
+            <div>
+              <span>Email</span>
+              <h6><a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></h6>
+            </div>
+          </div>
+          <div class="get-in-touch">
+            <div><i class="fa-brands fa-linkedin"></i></div>
+            <div>
+              <span>LinkedIn</span>
+              <h6><a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener">/in/corina-mcart</a></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="widget-title">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><i class="fa-solid fa-angles-right"></i><a href="#about">About</a></li>
+            <li><i class="fa-solid fa-angles-right"></i><a href="#services">Services</a></li>
+            <li><i class="fa-solid fa-angles-right"></i><a href="#results">Results</a></li>
+            <li><i class="fa-solid fa-angles-right"></i><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="all-rights">
+      <p>© <span id="year"></span> NMJ Consultancy. All rights reserved.</p>
+      <div class="review">
+        <img alt="Google reviews" src="assets/img/google-w.png">
+        <ul class="star">
+          <li><i class="fa-solid fa-star"></i></li><li><i class="fa-solid fa-star"></i></li><li><i class="fa-solid fa-star"></i></li><li><i class="fa-solid fa-star"></i></li><li><i class="fa-solid fa-star"></i></li>
+        </ul>
+        <h6>(5.0)</h6>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<div id="scroll-percentage" aria-hidden="true"><span id="scroll-percentage-value"></span></div>
+
+<!-- JS -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<script src="assets/js/splitText.js"></script>
+<script src="assets/js/gsap.js"></script>
+<script src="assets/js/scrolltrigger.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/sweetalert.min.js"></script>
+<script src="assets/js/contact.js"></script>
+<script>
+  // small helpers
+  document.getElementById('year').textContent = new Date().getFullYear();
+  // Smooth scroll for in-page anchors
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click', e=>{
+      const target = document.querySelector(a.getAttribute('href'));
+      if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth', block:'start'}); }
+    });
+  });
+</script>
+</body>
+</html>
